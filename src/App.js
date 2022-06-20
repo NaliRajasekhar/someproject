@@ -12,7 +12,7 @@ import{useState} from 'react';
       <div>
         <p>You clicked {count} times</p>
         <button onClick={() => setCount(count + 1)}>
-          Register
+          submit
         </button>
       </div>
     );
