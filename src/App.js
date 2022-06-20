@@ -10,9 +10,9 @@ import{useState} from 'react';
   
     return (
       <div>
-        <p>You clicked {count} times</p>
+        <p>You submitted {count} times</p>
         <button onClick={() => setCount(count + 1)}>
-          submit
+          Prees me
         </button>
       </div>
     );
